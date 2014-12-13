@@ -1,0 +1,4 @@
+#filters module
+
+def redtube(session):
+    return session["customer_id"] == "9055"
