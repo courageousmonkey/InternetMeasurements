@@ -43,9 +43,9 @@ def toggle():
 flag = True
 current = "big"
 
-#session_stats_path = r"C:\Users\NormanVIII\Downloads\Users\sessions.txt"
+session_stats_path = r"C:\Users\NormanVIII\Downloads\Users\Sessions\sessions_interval_not_clumped_weird.txt"
 #session_stats_path = "/Users/macdaddy/Documents/InternetMeasurement/internetMeasurement/data/sessions_no_interval_not_clumped_weird.txt"
-session_stats_path = "/Users/macdaddy/Documents/InternetMeasurement/internetMeasurement/data/sessions_interval_not_clumped_weird.txt"
+#session_stats_path = "/Users/macdaddy/Documents/InternetMeasurement/internetMeasurement/data/sessions_interval_not_clumped_weird.txt"
 
 session_stats_big = get_session_stats(session_stats_path)
 #session_stats_small = get_small_session_stats()
